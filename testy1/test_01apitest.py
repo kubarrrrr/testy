@@ -19,6 +19,5 @@ def test_location():
 def test_api4():
     basic = HTTPBasicAuth('user', 'passwd')
     r = requests.get('https://httpbin.org/basic-auth/', auth=basic)
-    print(r.status_code())
+    assert r.status_code == 200
 
-test_api()
