@@ -9,4 +9,9 @@ browser = webdriver.Chrome(service=s)
 url='https://www.duckduckgo.com/'
 browser.get(url)
 sleep(2)
-main = browser.find_element(By.XPATH, '/html/body/div/div[2]/div/div[3]/div[2]/div/div[3]/div[2]/a').click
+search = browser.find_element(By.XPATH, "/html/body/div/div[2]/div/div[3]/div[2]/div/div[3]/div[2]/a").click()
+# search.send_keys("test", Keys.ENTER)
+
+
+print(browser.title)
+driver.quit()
