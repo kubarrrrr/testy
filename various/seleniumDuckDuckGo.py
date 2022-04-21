@@ -14,4 +14,4 @@ search = browser.find_element(By.XPATH, "/html/body/div/div[2]/div/div[3]/div[2]
 
 
 print(browser.title)
-driver.quit()
+browser.quit()
