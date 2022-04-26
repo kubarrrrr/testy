@@ -8,7 +8,11 @@ with sr.Microphone() as source:
     audio = r.listen(source)
 
     try:
-        text = r.recognize_google(audio)
-        print('powiedziales: {}', format(text))
+        text = r.recognize_google(audio, language="PL")
+        # print('powiedziales: {}', format(text))
+        print(f"powiedziałeś: ", text)
+
     except:
         print('nie rozpznalem mowy')
+
+        
