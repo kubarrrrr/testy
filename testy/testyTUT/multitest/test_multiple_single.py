@@ -6,6 +6,7 @@ def test_add_int():
 
 def test_string():
     assert 'u' in 'sun'
+    
 
 def test_add_string():
     assert ('sunny' + 'day') == 'sunnyday'
