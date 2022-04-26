@@ -1,5 +1,5 @@
 def pralka(ubrania):
-    czyste_ubrania []
+    czyste_ubrania = []
     for ubranie in ubrania:
         czyste_ubranie = 
     czyste_ubranie1 = ubranie1.replace('brudne', 'czyste')

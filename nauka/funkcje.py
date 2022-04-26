@@ -7,14 +7,6 @@ def czy_to_kobieta(imie):
         return False
 
 
-wynik = czy_to_kobieta(imie='Magda')
-print(wynik)
-wynik = czy_to_kobieta(imie='Kuba')
-print(wynik)
-wynik = czy_to_kobieta(imie='Jaś')
-print(wynik)
-
-# czy_to_kobieta(imie='Roza')
-
-# czy_to_kobieta(imie='Turek')
-# czy_to_kobieta(imie='Kuba')
+wynik = czy_to_kobieta(input('podaj swoje '))
+if wynik == True:
+    print('to kobieta')
