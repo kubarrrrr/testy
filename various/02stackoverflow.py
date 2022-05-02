@@ -7,7 +7,7 @@ from time import sleep
 
 # options = Options()
 # options.add_argument('--headless')
-# options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+# options.add_argument('--disable-gpu')  # moze byc potrzebne.
 
 
 s = Service('C:/chromedriver.exe')

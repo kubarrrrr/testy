@@ -6,8 +6,7 @@ while user_choice != 5:
     if user_choice == 1:
         print(tasks)
 
-        if user_choice
-
+        
     if user_choice == 2:
         task = input("wpisz tresc zadania: ")
         tasks.append(task)
