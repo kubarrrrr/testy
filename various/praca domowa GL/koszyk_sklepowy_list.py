@@ -16,7 +16,8 @@ koszyk = []
 
 while True:
     koszyk.append(pulka_sklepowa[int(input('podaj nr '))])
-    koniec = input('chcesz zakonczyc zakupy? ')
+    print(koszyk)
+    koniec = input(f'Wrzuciles do koszyka nastepujace produkty: {koszyk}. Chcesz zakonczyc zakupy? ')
     if koniec == 'tak':
         break
 
@@ -28,11 +29,8 @@ produkty = []
 for x, y in koszyk:
     produkty.append(x)
 
-
     
 suma = sum(ceny)
-print(f'w Twoim koszyku znajdują się następujące produkty: {produkty}')
+print(f'\n \n W Twoim koszyku znajdują się następujące produkty: {produkty}')
 print(f'do zaplaty {suma}')
     
-
-
