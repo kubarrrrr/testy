@@ -64,5 +64,5 @@ def tax_to_pay(x, tax):
     return(price_with_tax)
 
 price = tax_to_pay(amount_to_pay, 1.08)
-print('in your basket: ' basket)
+print('in your basket: ', basket)
 print('Amount of money to pay: ', price)
