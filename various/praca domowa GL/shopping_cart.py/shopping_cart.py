@@ -1,3 +1,5 @@
+
+# all
 shop = {'potatos': 5, 'oranges': 15}
 
 index = 0
