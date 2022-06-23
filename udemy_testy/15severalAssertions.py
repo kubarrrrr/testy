@@ -21,7 +21,7 @@ class TestPerimeter(unittest.TestCase):
     def test_ValueError(self):
         self.assertRaises(TypeError, perimeter, '6')
         self.assertAlmostEqual(perimeter(1), 6.283185307179586, 6)
-
+        self.assertTrue()
 
 
 if __name__ == '__main__':

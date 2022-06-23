@@ -28,14 +28,14 @@ def main():
    
     
     time.sleep(6)
-   #finally scrolling the popup with followed people works!
-    # follow_list = browser.find_element(By.CLASS_NAME, "_aano")
-    # browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", follow_list)
+   
 
 
    
     while(True):
+        # unfollowing loop. needs random time implementation
         try:
+            #finally scrolling the popup with followed people works!
             follow_list = browser.find_element(By.CLASS_NAME, "_aano")
             browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", follow_list)
             list_of_people_who_we_are_following = browser.find_elements(By.XPATH, '//div[@class="_aaes"]//*//*')
